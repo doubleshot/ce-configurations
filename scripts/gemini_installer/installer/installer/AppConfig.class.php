@@ -337,7 +337,7 @@ class AppConfig
 			self::initField(AppConfigAttribute::TIME_ZONE, 'America/New_York');
 			self::initField(AppConfigAttribute::BASE_DIR, '/opt/kaltura');
 			self::initField(AppConfigAttribute::KALTURA_FULL_VIRTUAL_HOST_NAME, 'gemini.com');
-			self::initField(AppConfigAttribute::ADMIN_CONSOLE_ADMIN_MAIL, 'christopher.deneen@kaltura.com');
+			self::initField(AppConfigAttribute::ADMIN_CONSOLE_ADMIN_MAIL, 'user@example.com');
 			self::initField(AppConfigAttribute::ADMIN_CONSOLE_PASSWORD, 'temptemp');
 			self::initField(AppConfigAttribute::DB1_HOST, 'localhost');
 			self::initField(AppConfigAttribute::DB1_PORT, '3306');
