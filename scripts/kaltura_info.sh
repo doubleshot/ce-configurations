@@ -243,8 +243,8 @@ if [ $answer == 'y' ];then
 		echo "Mailx is not installed"
 	else
 		echo "Enter email address"
-		read answer
-		mailx -a $infofile -s "kaltura_info_$(hostname)" christopher.deneen@kaltura.com <<< "Kaltura Information for $(hostname)" 
+		read emailaddress
+		mailx -a $infofile -s "kaltura_info_$(hostname)" $emailaddress <<< "Kaltura Information for $(hostname)" 
 		if [ $? -ne 0 ];then
 			echo "Mail was not sent, some older versions of mailx do not support the -a attachment setting"
 		else
