@@ -24,4 +24,3 @@ Installation Step-by-Step
 	./install.sh -a <archive_file>
 
 	
-for document translator my email is christopher.deneen@kaltura.com
